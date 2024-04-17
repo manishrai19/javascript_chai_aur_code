@@ -25,11 +25,24 @@
  "" , 0  => false
  */
 
-let someNumber = true;
-let stringNumber = String(someNumber);
+// let someNumber = true;
+// let stringNumber = String(someNumber);
 
-console.log(someNumber);
+// console.log(someNumber);
 
-console.log(typeof stringNumber);
+// console.log(typeof stringNumber);
 
-console.log(stringNumber);
+// console.log(stringNumber);
+
+//***********************OPERATIONS***********************/
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+
+// console.log(2 + 2);
+// console.log(2 - 2);
+// console.log(2 * 2);
+// console.log(2 ** 3);
+// console.log(2 / 3);
+// console.log(2 % 3);

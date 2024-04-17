@@ -5,23 +5,26 @@
 /* Types of Data Types 
 
 PRIMITIVE Data Types
-string
-BigInt
-number > 2 to the power 53
-boolean
-null => Standalone value
-undefined => value is not assigned yet
-symbol => for uniqueness
+    string
+    bigInt
+    number > 2 to the power 53
+    boolean
+    null => Standalone value
+    undefined => value is not assigned yet
+    symbol => for uniqueness
 
 Objects
 
 */
 
-let age = 3
-let name = "Manish"
+let age = 3;
+let salary = 300.02;
+let name = "Manish";
+let stateof;
 
-console.log(typeof(age));
-console.log(typeof(name));  
-console.log(typeof(undefined));
-
-
+console.log("Type of age: ", typeof age);
+console.log(typeof salary);
+console.log(typeof name);
+console.log(typeof undefined); /// undefined
+console.log(typeof null); /// Null is object
+console.log(typeof stateof);
